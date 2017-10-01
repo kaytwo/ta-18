@@ -1,0 +1,42 @@
+/* Left nav top level */
+
+.bs-sidebar {
+  color: #fffbe9;
+  background-color: #010066;
+  padding: 10px;
+}
+
+.inkind{
+  padding-top: 3rem;
+}
+.bs-sidebar a:link, .bs-sidebar a:visited, .bs-sidebar a:hover, .bs-sidebar a:active {
+  color: #fffbe9;
+  text-decoration: underline;
+}
+
+.content {
+  background-color: #fffbe9;
+}
+
+.banner {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.bs-sidebar .nav  .active > a{
+  font-weight: bold;
+}
+
+/* Nav: second level (shown on .active) */
+.bs-sidebar .nav .nav > li > a {
+  padding-top:    3px;
+  padding-bottom: 3px;
+  padding-left: 30px;
+  font-size: 90%;
+}
+
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  padding: 5rem;
+  background-color: #b0c4de;
+}

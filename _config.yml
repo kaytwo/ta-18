@@ -1,0 +1,22 @@
+name: "Second Workshop on Targeted Attacks"
+description: "Second Workshop on Targeted Attacks, colocated with Financial Crypto 2018. This workshop brings together researchers and practitioners interested in investigating how best to prevent, mitigate, and characterize cyberattacks that leverage individual user information to maximize their impact."
+shortname: "TA at FC18"
+
+baseurl: "/targetedattacks"
+parenturl: "https://fc18.ifca.ai/index.html"
+parentname: "FC 18"
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
+exclude: [".gitignore", "README.md", "Gemfile*"]
+
+# section ordering
+sections: [home, cfp, program]
+
+kramdown:
+  header_offset: 2
