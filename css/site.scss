@@ -1,0 +1,42 @@
+---
+---
+
+/* Left nav top level */
+
+.bs-sidebar {
+  color: #fffbe9;
+  background-color: #010066;
+  padding: 10px;
+  a:link, a:visited, a:hover, a:active {
+  color: #fffbe9;
+  text-decoration: underline;
+  }
+  .nav  .active > a{
+    font-weight: bold;
+  }
+  .nav > li > a {
+    padding-top:    3px;
+    padding-bottom: 3px;
+    padding-left: 30px;
+    font-size: 90%;
+  }
+}
+
+.inkind{
+  padding-top: 3rem;
+}
+
+.content {
+  background-color: #fffbe9;
+}
+
+.banner {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  padding: 5rem;
+  background-color: #b0c4de;
+}
