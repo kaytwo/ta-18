@@ -13,12 +13,12 @@ defaults:
     values:
       layout: "default"
 
-exclude: [".gitignore", "README.md", "Gemfile*"]
+exclude: [".gitignore", "README.md", "Gemfile*", "*.sh"]
 
 # section ordering
 sections: [home, cfp, program]
 
 kramdown:
   header_offset: 3
-# sass:
-#   style: compressed
+sass:
+  style: compressed

@@ -84,7 +84,7 @@ accepted for publication to a conference/workshop with proceedings or a
 journal. We consider double submission serious research fraud and will treat it
 as such. In case of doubt contact the program chairs for any clarifications at
 <ckanich@uic.edu>. Paper submissions should be uploaded through the conference
-[submission website](https://fc18ta.hotcrp.com/).
+submission website.
 
 ## Regular Research Papers
 
