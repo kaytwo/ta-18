@@ -1,9 +1,19 @@
 ---
 ---
+@charset "utf-8";
+@import "bootstrap/_functions";
+@import "bootstrap/_variables";
+@import "bootstrap/mixins/_breakpoints";
 
-/* Left nav top level */
+.inkind{
+  padding-top: 3rem;
+}
 
-.bs-sidebar {
+.content {
+  background-color: #fffbe9;
+}
+
+.sidebar {
   color: #fffbe9;
   background-color: #010066;
   padding: 10px;
@@ -17,26 +27,25 @@
   .nav > li > a {
     padding-top:    3px;
     padding-bottom: 3px;
-    padding-left: 30px;
+    padding-left: .5rem;
     font-size: 90%;
   }
 }
 
-.inkind{
-  padding-top: 3rem;
-}
-
-.content {
-  background-color: #fffbe9;
-}
-
 .banner {
-  font-size: 2rem;
+  margin-top: .5rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 body {
   font-family: Verdana, Arial, Helvetica, sans-serif;
-  padding: 5rem;
+  padding: 1rem;
   background-color: #b0c4de;
+}
+
+@include media-breakpoint-up(md) {
+  body {
+    padding: 3rem;
+  }
 }

@@ -19,4 +19,6 @@ exclude: [".gitignore", "README.md", "Gemfile*"]
 sections: [home, cfp, program]
 
 kramdown:
-  header_offset: 2
+  header_offset: 3
+# sass:
+#   style: compressed
