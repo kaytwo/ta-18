@@ -2,7 +2,7 @@ name: "Second Workshop on Targeted Attacks"
 description: "Second Workshop on Targeted Attacks, colocated with Financial Crypto 2018. This workshop brings together researchers and practitioners interested in investigating how best to prevent, mitigate, and characterize cyberattacks that leverage individual user information to maximize their impact."
 shortname: "TA at FC18"
 
-baseurl: "/targetedattacks"
+baseurl: "/fc18/targetedattacks"
 parenturl: "https://fc18.ifca.ai/index.html"
 parentname: "FC 18"
 

@@ -3,10 +3,10 @@
       {% for sect in site.sections %}
         {% assign pg = site.pages | where:"keyword",sect %}
         {% assign pg = pg[0] %}
-          <li {% if page.url == pg.url %}class="active"{% endif %}><a href="{{site.baseurl}}{{ pg.url }}">{{ pg.title }}</a> </li>
+          <li {% if page.url == pg.url %}class="active"{% endif %}><a href="{{ pg.url }}">{{ pg.title }}</a> </li>
       {% endfor %}
       <li><a href="{{ site.parenturl }}">{{ site.parentname }}</a></li>
     </ul>
   <div class="inkind">
-  <i>Sponsors in Kind</i><br><a href="http://www.worldpay.com/" target="_blank"><img src="/images/worldpay.png" alt="Worldpay"</a></a></div>
+  <i>Sponsors in Kind</i><br><a href="http://www.worldpay.com/" target="_blank"><img src="../images/worldpay.png" alt="Worldpay"</a></a></div>
   </div>
